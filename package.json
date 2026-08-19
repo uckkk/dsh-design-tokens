@@ -1,0 +1,14 @@
+{
+  "name": "dsh-design-tokens",
+  "version": "0.1.0",
+  "description": "设计令牌命名规范参考",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": { ".": "./lib/index.js", "./cordis.patch.yml": "./cordis.patch.yml", "./package.json": "./package.json" },
+  "files": ["lib/index.js", "cordis.patch.yml", "README.md", "LICENSE"],
+  "dsh": { "bundle": { "patch": "./cordis.patch.yml" } },
+  "keywords": ["deepseek-harness", "dsh", "dsh-plugin", "design-tokens","design-system","naming"],
+  "author": "istone <ad571@qq.com>",
+  "license": "MIT",
+  "peerDependencies": { "@deepseek-ai/cordis": "^4.0.1", "@deepseek-ai/dsh-tools": ">=0.1.0-rc.6" }
+}
